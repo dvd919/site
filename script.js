@@ -26,10 +26,10 @@ function updateCountdown() {
     const hours_2 = Math.floor((timeRemaining_2 % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
     const days_2 = Math.floor(timeRemaining_2 / (1000 * 60 * 60 * 24));
 
-    document.getElementById('days').textContent = days_2;
-    document.getElementById('hours').textContent = hours_2;
-    document.getElementById('minutes').textContent = minutes_2;
-    document.getElementById('seconds').textContent = seconds_2;
+    document.getElementById('days_2').textContent = days_2;
+    document.getElementById('hours_2').textContent = hours_2;
+    document.getElementById('minutes_2').textContent = minutes_2;
+    document.getElementById('seconds_2').textContent = seconds_2;
 }
 
 // 초당 한 번씩 디데이 업데이트
