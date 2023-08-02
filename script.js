@@ -1,7 +1,7 @@
 // 디데이 날짜 설정 (YYYY-MM-DD 형식)
 const ddayDate = '2023-09-19';
 const ddayDate_2 = '2024-04-30';
-const ddayDate_3 = '2023-08-11'
+const ddayDate_3 = '2023-08-11';
 
 function updateCountdown() {
     const ddayTime = new Date(ddayDate).getTime();
